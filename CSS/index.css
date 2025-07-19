@@ -165,9 +165,10 @@ nav a:hover {
   background: #161B22;
   padding: 2rem;
   border-radius: 1rem;
-  box-shadow: 0 8px 20px rgba(88, 166, 255, 0.1);
+  /* box-shadow: 0 8px 20px rgba(88, 166, 255, 0.1); */
   transition: transform 0.3s ease;
-  border: 1px solid #58A6FF;
+  /* border: 1px solid #58A6FF; */
+  box-shadow: -2px 0px 2px 2px #58A6FF;
 }
 
 .card h2 {
@@ -194,7 +195,7 @@ nav a:hover {
 }
 
 .card li::before {
-  content: "🚀";
+  /* content: "🚀"; */
   position: absolute;
   left: 0;
 }
@@ -209,6 +210,21 @@ footer {
   text-align: center;
   background-color: #161B22;
   color: #C9D1D9;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    /* color: #58A6FF; */
+}
+.profile a {
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
+    color: #58A6FF;
 }
 
 @keyframes infinity {
